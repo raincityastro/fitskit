@@ -17,7 +17,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(name: "FITSCore", url: "https://github.com/brampf/fitscore.git", .exact("0.3.0"))
+        .package(name: "FITSCore", url: "https://github.com/raincityastro/fitscore.git", .exact("0.3.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
